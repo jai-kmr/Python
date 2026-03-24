@@ -1,7 +1,7 @@
 def is_float(N):
     try:
         float(N)
-        return True
+        return '.' in N
     except ValueError:
         return False
     
