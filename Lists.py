@@ -16,7 +16,7 @@ if __name__ == '__main__':
                     arr.remove(y)
             
             elif x == 'append':
-                    arr.remove(y)
+                    arr.append(y)
                     
             elif x == 'sort':
                     arr.sort()
