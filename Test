@@ -1,0 +1,9 @@
+a = "ABCDCDC"
+b = "CDC"
+#print(len(b))
+#print((range(len(a))))
+print(a[0:(0+(len(b)))])
+
+for i in range(len(a)):
+    #print(i)
+    None

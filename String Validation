@@ -1,0 +1,8 @@
+if __name__ == '__main__':
+    s = input()
+    print("".join([x for x in s if x.isalnum()]).isalnum())
+    print("".join([x for x in s if x.isalpha()]).isalpha())
+    print("".join([x for x in s if x.isdigit()]).isdigit())
+    print("".join([x for x in s if x.islower()]).islower())
+    print("".join([x for x in s if x.isupper()]).isupper())
+    
