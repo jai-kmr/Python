@@ -1,0 +1,16 @@
+if __name__ == '__main__':
+    grades = []
+    scoreList = []
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        grades += [[name, score]]
+        scoreList += [score]
+    
+    scoreList = sorted(list(set(scoreList)))
+    secondLast = scoreList[1]
+    grades = sorted(grades)
+
+    for i in range(len(grades)):
+        if grades[i][1] == secondLast:
+            print(grades[i][0])
